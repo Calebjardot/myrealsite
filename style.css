@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Gudea', sans-serif;
+  
+}
+img { position:absolute;
+   left:50%;
+     width: 80%;
+     transform: translate(-50%,0%);
+     border-radius: 50%;
+}
+@media screen and (min-width: 592px) {
+  img {
+    width: 430px;
+  }
+}
+h1{  position:absolute;
+   left:50%;
+     transform: translate(-50%,0);
+  Top:0px;}
+p{ position:absolute;
+   left:50%;
+     transform: translate(-50%,0);}
+p.title{ top:52px;}
+p.p1{position:absolute;
+    top:500px}
+@media screen and (max-width: 500px) {
+  p.p1 {
+    top: 420px;
+  }
+}
+p.p2{top:600px;}
+@media screen and (max-width: 500px) {
+  p.p2 {
+    top: 575px;
+  }
+}
+p.p3{
+  position:absolute;
+  top:740px;}
+@media screen and (max-width: 500px) {
+  p.p3 {
+    top: 768px;
+  }
+}
+p.pconc{
+  position:absolute;
+  top:880px;}
+@media screen and (max-width: 500px) {
+  p.pconc {
+    top: 1000px;
+  }
+}
+p.pthank{
+  position:absolute;
+  top:1080px;}
+@media screen and (max-width: 500px) {
+  p.thank {
+    top: 1100px;
+  }
+}
